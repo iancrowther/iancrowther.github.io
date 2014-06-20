@@ -1,6 +1,11 @@
-doctype
-html
-  head
-    link(rel="stylesheet" href="/main.css")
-  body
-    != yield
+doctype html
+html(lang="en")
+	head
+		title= title
+		meta(name="viewport", content="width=device-width", initial-scale="1")
+		link(rel="stylesheet" href="styles.css")
+	body
+		div.container-full
+			!= partial("_header")
+			!= yield
+			!= partial("_footer")

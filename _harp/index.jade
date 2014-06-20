@@ -1,2 +1,16 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+div.container
+	div.row
+		div.col-lg-12
+			h1= title
+			h2= 'Availability: ' + contracts.availability.closed
+			h3= contracts.agencies
+	div.row
+		div.col-lg-12
+			h1= projects.hero
+			ul
+				each consultancy in projects.consultancies
+					a(href=consultancy.url, title=consultancy.name)
+						li= consultancy.name
+	div.row
+		div.col-lg-12
+			a(href=profile.resume, target="_blank", title="Download Resume") Download Resume

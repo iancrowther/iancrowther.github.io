@@ -1,0 +1,24 @@
+{
+  "index": {
+    "profile": {
+      "resume": "http://goo.gl/nZ7h4"
+    },
+    "projects": {
+    	"hero": "If you have a project or idea you would like to kickstart, I recommend the following consultancies",
+	  	"consultancies": [{
+	  		"name": "nexttick",
+	  		"url": "http://nexttick.io"
+  		},{
+	  		"name": "yld",
+	  		"url": "http://yld.io"
+			}]
+  	},
+    "contracts": {
+    	"availability": {
+        "open": "Activly Looking",
+        "closed": "In Contract"
+      },
+      "agencies": "No agencies please."
+    }
+  }
+}
