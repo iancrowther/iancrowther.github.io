@@ -73,5 +73,8 @@
       "text": "github pages.",
       "href": "http://pages.github.com"
     }
+  },
+  "CNAME": {
+    "layout": false
   }
 }
