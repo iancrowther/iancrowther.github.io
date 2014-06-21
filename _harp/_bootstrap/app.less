@@ -1,4 +1,3 @@
-// Logo
 @font-face {
   font-family: "DanielRegular";
   src: url('fonts/daniel-webfont.eot');
@@ -15,8 +14,12 @@
 	.sidebar {
 		margin-bottom: 30px;
 	}
+	@media (min-width: @screen-sm-min) {
+		.hero {
+			margin-top: 10px;
+		}
+	}
 	@media (max-width: @screen-xs-max) {
-	// @media (min-width: @screen-sm-min) {
 		.hero{
 			ul {
 				text-align: center;

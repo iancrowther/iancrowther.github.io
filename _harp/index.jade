@@ -1,11 +1,13 @@
 div.container.main
 	div.row
 		div.col-xs-12.col-sm-9.col-md-9.col-lg-9
-			h1#logo= uri
+			h1(id="logo", rel="me") 
+				= uri
 			h2= title
 			dl
-				dt= 'Availability: ' + contracts.availability.closed
-				dd= contracts.agencies
+				dt= 'Availability: ' + contract.availability.closed
+				dd= contract.agencies
+			p= about
 
 		div.sidebar.col-xs-12.col-sm-3.col-md-3.col-lg-3
 			h3 Contact
@@ -21,4 +23,3 @@ div.container.main
 				each consultancy in projects.consultancies
 					li: a(href=consultancy.url, title=consultancy.name, target="_blank")
 						img(src= "img/" + consultancy.name + ".png", width="96px")
-						// = consultancy.name

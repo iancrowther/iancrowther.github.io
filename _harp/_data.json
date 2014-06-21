@@ -1,12 +1,13 @@
 {
   "index": {
-    "contracts": {
+    "contract": {
     	"availability": {
         "open": "Activly Looking",
         "closed": "In Contract"
       },
       "agencies": " No agencies please."
     },
+    "about": "I am a web developer / architect and team leader available to hire for contract work. I work on the development of semantic web apps through the use of web standards. Using agile and UXD techniques, I create user centred designs which enable me to create web apps that are both accessible &amp; usable.",
     "contact": [{
       "name": "phone",
       "text": "020 8144 0798",
@@ -29,7 +30,7 @@
       "icon": "fa-skype"
     }],
     "projects": {
-      "lead": "Looking to build something great, check out the following consultancies:",
+      "lead": "Looking to build something great, check out these great consultancies:",
       "consultancies": [{
         "name": "nexttick",
         "url": "http://nexttick.io"
@@ -48,7 +49,7 @@
     },{
       "name": "linkedin",
       "text": "linkedin",
-      "href": "http://stackoverflow.com/iancrowther",
+      "href": "http://www.linkedin.com/in/iancrowther",
       "icon": "fa-linkedin"
     },{
       "name": "resume",
