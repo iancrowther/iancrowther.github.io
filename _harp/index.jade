@@ -1,9 +1,11 @@
-div.container
+div.container.main
 	div.row
 		div.col-xs-12.col-sm-9.col-md-9.col-lg-9
-			h1= title
-			h2= 'Availability: ' + contracts.availability.closed
-			h3= contracts.agencies
+			h1#logo= uri
+			h2= title
+			dl
+				dt= 'Availability: ' + contracts.availability.closed
+				dd= contracts.agencies
 
 		div.col-xs-12.col-sm-3.col-md-3.col-lg-3
 			h3 Contact
@@ -14,8 +16,9 @@ div.container
 						= item.text
 			
 		div.col-xs-12.col-sm-9.col-md-9.col-lg-9
-			h1= projects.hero
-			ul
+			p.lead= projects.lead
+			ul.list-inline
 				each consultancy in projects.consultancies
-					a(href=consultancy.url, title=consultancy.name)
-						li= consultancy.name
+					li: a(href=consultancy.url, title=consultancy.name, target="_blank")
+						img(src= "img/" + consultancy.name + ".png", width="96px")
+						// = consultancy.name

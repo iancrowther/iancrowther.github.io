@@ -1,7 +1,26 @@
-.list-inline li {
-	padding: 0 40px 0 0;
+.main {
+	padding-top: 20px;
 }
 
+// Logo
+@font-face {
+  font-family: "DanielRegular";
+  src: url('fonts/daniel-webfont.eot');
+  src: url('fonts/daniel-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/daniel-webfont.woff') format('woff'), url('fonts/daniel-webfont.ttf') format('truetype'), url('fonts/daniel-webfont.svg#DanielRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+#logo {
+  font-family: "DanielRegular";
+}
+
+
 footer {
+	position: fixed !important;
+	bottom: 0 !important;
 	text-align: center;
+	
+	.list-inline li {
+		padding: 0 40px 0 0;
+	}
 }

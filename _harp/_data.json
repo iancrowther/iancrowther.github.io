@@ -5,7 +5,7 @@
         "open": "Activly Looking",
         "closed": "In Contract"
       },
-      "agencies": "No agencies please."
+      "agencies": " No agencies please."
     },
     "contact": [{
       "name": "phone",
@@ -19,7 +19,7 @@
       "icon": "fa-inbox"
     },{
       "name": "twitter",
-      "text": "twitter",
+      "text": "@iancrowther",
       "href": "http://twitter.com/iancrowther",
       "icon": "fa-twitter"
     },{
@@ -29,7 +29,7 @@
       "icon": "fa-skype"
     }],
     "projects": {
-      "hero": "If you have a project or idea you would like to kickstart, I recommend the following consultancies",
+      "lead": "Looking to build something great, check out the following consultancies:",
       "consultancies": [{
         "name": "nexttick",
         "url": "http://nexttick.io"
