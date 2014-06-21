@@ -1,14 +1,24 @@
 div.container
 	div.row
-		div.col-lg-12
-			footer
-				p 
-					| Created by 
-					a(href="http://iancrowther.co.uk") Ian Crowther 
-					| using 
-					a(href="http://nodejs.org") nodejs, 
-					a(href="http://harpjs.com") harp 
-					| and the 
-					a(href="http://getbootstrap.com") twitter bootstrap.  
-					| Hosted on 
-					a(href="http://pages.github.com") github pages.
+		footer.col-xs-12.col-lg-12
+			ul.fa-ul.list-inline
+				each item in footer.profile
+					li: a(href= item.href, target="_blank")
+						i(class="fa-li fa fa-lg " + item.icon)
+						= item.text
+			p 
+				| Created by 
+				a(href= uri) 
+					= author 
+				|  using 
+				a(href= footer.node.href) 
+					= footer.node.text
+				|, 
+				a(href= footer.harp.href) 
+					= footer.harp.text
+				|  and the 
+				a(href= footer.bootstrap.href) 
+					= footer.bootstrap.text  
+				|  Hosted on 
+				a(href= footer.pages.href) 
+					= footer.pages.text

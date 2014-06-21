@@ -1,24 +1,76 @@
 {
   "index": {
-    "profile": {
-      "resume": "http://goo.gl/nZ7h4"
-    },
-    "projects": {
-    	"hero": "If you have a project or idea you would like to kickstart, I recommend the following consultancies",
-	  	"consultancies": [{
-	  		"name": "nexttick",
-	  		"url": "http://nexttick.io"
-  		},{
-	  		"name": "yld",
-	  		"url": "http://yld.io"
-			}]
-  	},
     "contracts": {
     	"availability": {
         "open": "Activly Looking",
         "closed": "In Contract"
       },
       "agencies": "No agencies please."
+    },
+    "contact": [{
+      "name": "phone",
+      "text": "020 8144 0798",
+      "href": "tel:02081440798",
+      "icon": "fa-phone"
+    },{
+      "name": "mail",
+      "text": "ian@iancrowther.co.uk",
+      "href": "mailto:ian@iancrowther.co.uk",
+      "icon": "fa-inbox"
+    },{
+      "name": "twitter",
+      "text": "twitter",
+      "href": "http://twitter.com/iancrowther",
+      "icon": "fa-twitter"
+    },{
+      "name": "skype",
+      "text": "iancrowther1",
+      "href": "skype:iancrowther1?add",
+      "icon": "fa-skype"
+    }],
+    "projects": {
+      "hero": "If you have a project or idea you would like to kickstart, I recommend the following consultancies",
+      "consultancies": [{
+        "name": "nexttick",
+        "url": "http://nexttick.io"
+      },{
+        "name": "yld",
+        "url": "http://yld.io"
+      }]
+    }
+  },
+  "footer": {
+    "profile": [{
+      "name": "github",
+      "text": "github",
+      "href": "http://github.com/iancrowther",
+      "icon": "fa-github"
+    },{
+      "name": "linkedin",
+      "text": "linkedin",
+      "href": "http://stackoverflow.com/iancrowther",
+      "icon": "fa-linkedin"
+    },{
+      "name": "resume",
+      "text": "resume",
+      "href": "http://goo.gl/nZ7h4",
+      "icon": "fa-cloud-download"
+    }],
+    "node": {
+      "text": "node",
+      "href": "http://nodejs.org"
+    },
+    "harp": {
+      "text": "harp",
+      "href": "http://harpjs.com"
+    },
+    "bootstrap": {
+      "text": "twitter bootstrap.",
+      "href": "http://getbootstrap.com"
+    },
+    "pages":{
+      "text": "github pages.",
+      "href": "http://pages.github.com"
     }
   }
 }
