@@ -11,3 +11,4 @@ html(lang="en")
 		div.container-full
 			!= yield
 			!= partial("_footer", { footer: public._data.footer })
+			!= partial("_shared/analytics.jade")
