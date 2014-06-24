@@ -74,10 +74,10 @@
       "href": "http://pages.github.com"
     }
   },
-  "analytics": {
-    "id": "UA-2845245-6"
-  },
   "CNAME": {
+    "layout": false
+  },
+  "sitemap": {
     "layout": false
   }
 }

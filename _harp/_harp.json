@@ -3,6 +3,7 @@
     "title": "Full Stack Node Developer",
     "author"  : "Ian Crowther",
     "description": "The profile page of Ian Crowther",
-    "uri": "iancrowther.co.uk"
+    "uri": "iancrowther.co.uk",
+    "analytics": "UA-2845245-6"
   }
 }
