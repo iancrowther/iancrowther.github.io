@@ -74,10 +74,13 @@
       "href": "http://pages.github.com"
     }
   },
-  "CNAME": {
+  "sitemap": {
     "layout": false
   },
-  "sitemap": {
+  "README.md": {
+    "layout": false
+  },
+  "CNAME": {
     "layout": false
   }
 }
