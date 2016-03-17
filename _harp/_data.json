@@ -35,7 +35,7 @@
       "icon": "fa-linkedin"
     }],
     "projects": {
-      "lead": "Projects im currently involved with:",
+      "lead": "Projects I'm currently involved with:",
       "consultancies": [{
         "name": "nodejs",
         "url": "http://nodejs.org",
