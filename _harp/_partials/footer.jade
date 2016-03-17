@@ -1,24 +1,19 @@
 div.container
 	div.row
 		footer.col-xs-12.col-lg-12
-			ul.fa-ul.list-inline
-				each item in footer.profile
-					li: a(href= item.href, target="_blank")
-						i(class="fa-li fa fa-lg " + item.icon)
-						= item.text
-			p 
-				| Created by 
-				a(href= 'http://' + uri) 
-					= author 
-				|  using 
-				a(href= footer.node.href) 
+			p
+				| Created by&nbsp;
+				a(href= 'http://' + uri)
+					= author
+				| &nbsp;using&nbsp;
+				a(href= footer.node.href)
 					= footer.node.text
-				|, 
-				a(href= footer.harp.href) 
+				|,&nbsp;
+				a(href= footer.harp.href)
 					= footer.harp.text
-				|  and the 
-				a(href= footer.bootstrap.href) 
-					= footer.bootstrap.text  
-				|  Hosted on 
-				a(href= footer.pages.href) 
+				| &nbsp;and the&nbsp;
+				a(href= footer.bootstrap.href)
+					= footer.bootstrap.text
+				| &nbsp;Hosted on&nbsp;
+				a(href= footer.pages.href)
 					= footer.pages.text

@@ -3,20 +3,15 @@
     "contract": {
     	"availability": {
         "open": "Activly Looking",
-        "closed": "In Contract"
+        "closed": "Employed"
       },
       "agencies": " No agencies please."
     },
-    "about": "I am a web developer / architect and team leader available to hire for contract work. I work on the development of semantic web apps through the use of web standards. Using agile and UXD techniques, I create user centred designs which enable me to create web apps that are both accessible &amp; usable.",
+    "about": "My role at nearForm involves supporting the technology community, focusing on Digital Transformation using Node.js, Microservices & Continuous Delivery.",
     "contact": [{
-      "name": "phone",
-      "text": "020 8144 0798",
-      "href": "tel:02081440798",
-      "icon": "fa-phone"
-    },{
       "name": "mail",
-      "text": "ian@iancrowther.co.uk",
-      "href": "mailto:ian@iancrowther.co.uk",
+      "text": "ian.crowther@nearform.com",
+      "href": "mailto:ian.crowther@nearform.com",
       "icon": "fa-inbox"
     },{
       "name": "twitter",
@@ -24,39 +19,51 @@
       "href": "http://twitter.com/iancrowther",
       "icon": "fa-twitter"
     },{
+      "name": "github",
+      "text": "iancrowther",
+      "href": "http://github.com/iancrowther",
+      "icon": "fa-github"
+    },{
       "name": "skype",
       "text": "iancrowther1",
       "href": "skype:iancrowther1?add",
       "icon": "fa-skype"
-    }],
-    "projects": {
-      "lead": "Looking to build something great, check out these great consultancies:",
-      "consultancies": [{
-        "name": "nexttick",
-        "url": "http://nexttick.io"
-      },{
-        "name": "yld",
-        "url": "http://yld.io"
-      }]
-    }
-  },
-  "footer": {
-    "profile": [{
-      "name": "github",
-      "text": "github",
-      "href": "http://github.com/iancrowther",
-      "icon": "fa-github"
     },{
       "name": "linkedin",
       "text": "linkedin",
       "href": "http://www.linkedin.com/in/iancrowther",
       "icon": "fa-linkedin"
-    },{
-      "name": "resume",
-      "text": "resume",
-      "href": "http://goo.gl/nZ7h4",
-      "icon": "fa-cloud-download"
     }],
+    "projects": {
+      "lead": "Projects im currently involved with:",
+      "consultancies": [{
+        "name": "nodejs",
+        "url": "http://nodejs.org",
+        "alt": "Node.js Logo"
+      },{
+        "name": "nodeschool-international",
+        "url": "http://nodeschool.io/international-day",
+        "alt": "Nodeschool International Day Logo"
+      },{
+        "name": "lnug",
+        "url": "http://lnug.org",
+        "alt": "London Node User Group Logo"
+      },{
+        "name": "nodeconf-london",
+        "url": "http://london.nodesconf.com",
+        "alt": "NodeConf London Logo"
+      },{
+        "name": "nodeschool-london",
+        "url": "http://nodeschool.io/london",
+        "alt": "Nodeschool London Logo"
+      },{
+        "name": "nottsjs",
+        "url": "http://nottsjs.org",
+        "alt": "NottsJS Logo"
+      }]
+    }
+  },
+  "footer": {
     "node": {
       "text": "node",
       "href": "http://nodejs.org"
