@@ -39,27 +39,27 @@
       "consultancies": [{
         "name": "nodejs",
         "url": "http://nodejs.org",
-        "alt": "Node.js Logo"
+        "alt": "Node.js"
       },{
         "name": "nodeschool-international",
         "url": "http://nodeschool.io/international-day",
-        "alt": "Nodeschool International Day Logo"
+        "alt": "Nodeschool International Day"
       },{
         "name": "lnug",
         "url": "http://lnug.org",
-        "alt": "London Node User Group Logo"
+        "alt": "London Node User Group"
       },{
         "name": "nodeconf-london",
         "url": "http://london.nodesconf.com",
-        "alt": "NodeConf London Logo"
+        "alt": "NodeConf London"
       },{
         "name": "nodeschool-london",
         "url": "http://nodeschool.io/london",
-        "alt": "Nodeschool London Logo"
+        "alt": "Nodeschool London"
       },{
         "name": "nottsjs",
         "url": "http://nottsjs.org",
-        "alt": "NottsJS Logo"
+        "alt": "NottsJS"
       }]
     }
   },

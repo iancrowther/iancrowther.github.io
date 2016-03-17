@@ -1,8 +1,10 @@
 div.container.main
 	div.row
 		div.col-xs-12.col-sm-9.col-md-9.col-lg-9
-			h1(id="logo", rel="me") 
-				= uri
+			h1(id="logo", rel="me")
+				a(href='http://'+uri, class="logo")
+					= uri
+
 			h2= title
 			dl
 				dt= 'Availability: ' + contract.availability.closed
@@ -16,10 +18,10 @@ div.container.main
 					li: a(href= item.href, target="_blank")
 						i(class="fa-li fa fa-lg " + item.icon)
 						= item.text
-			
+
 		div.hero.col-xs-12.col-sm-9.col-md-9.col-lg-9
 			p.lead= projects.lead
 			ul.list-inline
 				each consultancy in projects.consultancies
-					li: a(href=consultancy.url, title=consultancy.name, target="_blank")
+					li: a(href=consultancy.url, title=consultancy.alt, target="_blank")
 						img(src= "img/" + consultancy.name + ".png", width="96px")
