@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/iancrowther
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://iancrowther.co.uk
+  * I am iancrowther (https://keybase.io/iancrowther) on keybase.
+  * I have a public key ASBfT3kdH9RG1Ine2KSVvqeucg2z2Fn6dfNEoDqVdP-7LQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010192061fae1fc61c43b0b054897e0f88df731496165c1fe52fbe815bd0a87e51db0a",
+            "host": "keybase.io",
+            "kid": "01205f4f791d1fd446d489ded8a495bea7ae720db3d859fa75f344a03a9574ffbb2d0a",
+            "uid": "2d2b384b14585c16621177e7482ca200",
+            "username": "iancrowther"
+        },
+        "service": {
+            "hostname": "iancrowther.co.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.22"
+    },
+    "ctime": 1494016744,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1494016632,
+        "hash": "cb39ea5811cc7636d043ea69a1f5a095bf2f0b619151f04868ffdfc18b86e2eec6c40fa2bf7fd7e91fa6db49bc22c66a3162cf5485a16f5df76ef65f6a194ec5",
+        "seqno": 1055389
+    },
+    "prev": "580fca5766435ec80e8fa19a95bc0e9dc5dc62bdde0936491832871b4779bcda",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgX095HR/URtSJ3tiklb6nrnINs9hZ+nXzRKA6lXT/uy0Kp3BheWxvYWTFAv57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOTIwNjFmYWUxZmM2MWM0M2IwYjA1NDg5N2UwZjg4ZGY3MzE0OTYxNjVjMWZlNTJmYmU4MTViZDBhODdlNTFkYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNWY0Zjc5MWQxZmQ0NDZkNDg5ZGVkOGE0OTViZWE3YWU3MjBkYjNkODU5ZmE3NWYzNDRhMDNhOTU3NGZmYmIyZDBhIiwidWlkIjoiMmQyYjM4NGIxNDU4NWMxNjYyMTE3N2U3NDgyY2EyMDAiLCJ1c2VybmFtZSI6ImlhbmNyb3d0aGVyIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJpYW5jcm93dGhlci5jby51ayIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIyIn0sImN0aW1lIjoxNDk0MDE2NzQ0LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTQwMTY2MzIsImhhc2giOiJjYjM5ZWE1ODExY2M3NjM2ZDA0M2VhNjlhMWY1YTA5NWJmMmYwYjYxOTE1MWYwNDg2OGZmZGZjMThiODZlMmVlYzZjNDBmYTJiZjdmZDdlOTFmYTZkYjQ5YmMyMmM2NmEzMTYyY2Y1NDg1YTE2ZjVkZjc2ZWY2NWY2YTE5NGVjNSIsInNlcW5vIjoxMDU1Mzg5fSwicHJldiI6IjU4MGZjYTU3NjY0MzVlYzgwZThmYTE5YTk1YmMwZTlkYzVkYzYyYmRkZTA5MzY0OTE4MzI4NzFiNDc3OWJjZGEiLCJzZXFubyI6MTcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAfsnoaOGelU+ny4lKed/mUTL//d4cmcvsGm1B9iZ/RGS/N3ahcWvHCPHoigOhBEA9F09yiJkFI6op9CPSefU7DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIP6iHUAWzhn9sH9OQGte91XEefXQjiY/dPdQfTFVBcrIo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/iancrowther
+
+==================================================================
